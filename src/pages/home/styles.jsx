@@ -63,11 +63,19 @@ export const SummaryContainer = styled.div`
   width: 70rem;
   background: ${(props) => props.theme["violet-200"]};
   display: flex;
+  flex-direction: column;
   padding: 1.813rem 3rem;
+  gap: 3rem;
   border-radius: 1rem;
 `;
 
+export const SummaryResultsContainer = styled.div`
+  width: 70rem;
+  display: flex;
+  gap: 2rem;
+`;
 export const SummaryResults = styled.div`
   display: flex;
   flex-direction: column;
+  width: 30.563rem;
 `;

@@ -12,5 +12,6 @@ body{
     background-color:${(props) => props.theme["violet-400"]};
     padding: 7rem 7.688rem;
     color: ${(props) => props.theme["white"]};
+    height: 100vh;
 }
 `;
