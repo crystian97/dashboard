@@ -1,0 +1,61 @@
+{   
+    "sales":[
+      
+        {
+            "id":1,
+            "day-of-week":"sunday",
+            "sales":10 ,
+            "profit":500          
+
+        },
+        {
+            "id":2,
+            "day-of-week":"monday",
+            "sales":10,
+            "profit":1500          
+
+        },
+        {
+            "id":3,
+            "day-of-week":"tuesday",
+            "sales":60,
+            "profit":500          
+
+        },
+        {
+            "id":4,
+            "day-of-week":"wednesday",
+            "sales":10,
+            "profit":500          
+
+        },
+        {
+            "id":5,
+            "day-of-week":"thursday",
+            "sales":100,
+            "profit":500          
+
+        },{
+            "id":6,
+            "day-of-week":"friday",
+            "sales":100,
+            "profit":500          
+
+        },{
+            "id":7,
+            "day-of-week":"saturday",
+            "sales":100,
+            "profit":500          
+
+        }
+
+    
+],
+"goals":[
+    {
+        "monthly-goal":100,
+        "closed-sales":70000
+    }
+]
+
+}
