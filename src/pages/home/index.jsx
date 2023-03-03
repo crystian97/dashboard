@@ -1,4 +1,7 @@
 import { Circle } from "phosphor-react";
+import { useEffect, useState } from "react";
+import Chart from "react-google-charts";
+import { api } from "../../services/api/api";
 import {
   Card,
   CardBody,
@@ -12,6 +15,29 @@ import {
 } from "./styles";
 
 export default function Home() {
+  const [finishedSales, setFinishedSales] = useState(0);
+  const [monthlyGoals, setMonthlyGoals] = useStae(0);
+  const [dayWithMoreSales, setDayWithMoreSales] = useState("");
+  const [dayWithLessSales, setDayWithLessSales] = useState("");
+
+  const data = [
+    ["Task", "Hours per Day"],
+    ["Esperado", 11],
+    ["Alcançado", 8],
+  ];
+  const options = {
+    backgroundColor: "transparent",
+    pieHole: 0.4,
+    is3D: false,
+  };
+  async function getSales() {
+    await api.get("/sales").then((response) => {
+      setSales(response.data);
+    });
+  }
+  useEffect(() => {
+    getSales();
+  }, []);
   return (
     <HomeContainer>
       <CardContainer>
@@ -69,7 +95,13 @@ export default function Home() {
         <Card width={"351px"} height={"379px"}>
           <h2>Vendas fechadas</h2>
           <CardBody>
-            <div>grafico</div>
+            <Chart
+              chartType="PieChart"
+              width="100%"
+              height="400px"
+              data={data}
+              options={options}
+            />
           </CardBody>
           <CardFooter>
             <Subtitles>
