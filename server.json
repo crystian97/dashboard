@@ -3,58 +3,57 @@
       
         {
             "id":1,
-            "day-of-week":"sunday",
-            "sales":10 ,
-            "profit":500          
+            "day-of-week":"Domingo",
+            "sales":5 ,
+            "profit":10000         
 
         },
         {
             "id":2,
-            "day-of-week":"monday",
+            "day-of-week":"Segunda",
             "sales":10,
-            "profit":1500          
+            "profit":10000          
 
         },
         {
             "id":3,
-            "day-of-week":"tuesday",
-            "sales":60,
-            "profit":500          
+            "day-of-week":"Terça",
+            "sales":8,
+            "profit":10000            
 
         },
         {
             "id":4,
-            "day-of-week":"wednesday",
+            "day-of-week":"Quarta",
             "sales":10,
-            "profit":500          
+            "profit":10000            
 
         },
         {
             "id":5,
-            "day-of-week":"thursday",
-            "sales":100,
-            "profit":500          
+            "day-of-week":"Quinta",
+            "sales":17,
+            "profit":10000           
 
         },{
             "id":6,
-            "day-of-week":"friday",
-            "sales":100,
-            "profit":500          
+            "day-of-week":"Sexta",
+            "sales":10,
+            "profit":10000           
 
         },{
             "id":7,
-            "day-of-week":"saturday",
-            "sales":100,
-            "profit":500          
-
+            "day-of-week":"Sábado",
+            "sales":10,
+            "profit":3000          
         }
 
     
 ],
 "goals":[
     {
-        "monthly-goal":100,
-        "closed-sales":70000
+        "monthly-goal":70000,
+        "closed-sales":100
     }
 ]
 
