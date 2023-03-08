@@ -194,12 +194,12 @@ export default function Home() {
           </CardBody>
           <CardFooter>
             <Subtitles>
-              <Circle size={32} weight="fill" />
+              <Circle size={32} weight="fill" color="#1286" />
               <small>Esperado</small>
               <small>{awaitedMonthlyGoal}</small>
             </Subtitles>
             <Subtitles>
-              <Circle size={32} weight="fill" />
+              <Circle size={32} weight="fill" color="#e38580" />
               <small>Alcançado</small>
               <small>{monthlyGoals}</small>
             </Subtitles>
