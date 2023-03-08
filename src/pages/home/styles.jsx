@@ -4,7 +4,7 @@ export const HomeContainer = styled.main`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.7rem;
+  gap: 3rem;
 `;
 export const CardContainer = styled.div`
   display: flex;
@@ -64,7 +64,7 @@ export const SummaryContainer = styled.div`
   background: ${(props) => props.theme["violet-200"]};
   display: flex;
   flex-direction: column;
-  padding: 1.813rem 3rem;
+  padding: 1rem 3rem;
   gap: 3rem;
   border-radius: 1rem;
 `;
@@ -72,7 +72,7 @@ export const SummaryContainer = styled.div`
 export const SummaryResultsContainer = styled.div`
   width: 70rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 `;
 export const SummaryResults = styled.div`
   display: flex;

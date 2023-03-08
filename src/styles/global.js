@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 body{
     background-color:${(props) => props.theme["violet-400"]};
-    padding: 7rem 7.688rem;
+    padding: 2rem 0 2rem 0;
     color: ${(props) => props.theme["white"]};
     height: 100vh;
 }
